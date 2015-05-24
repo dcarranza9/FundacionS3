@@ -1,42 +1,86 @@
 <form action="#" method="post" name="formAgMed">
 
-					<div class="cabecera"><h1>AGREGAR MEDICAMENTO</h1></div>
+    <div class="cabecera"><h1>AGREGAR MEDICAMENTO</h1></div>
 
-					<div class="articulo">
+    <div class="articulo">
 
-						<div class="row">
-							<div class="col col-xs-3 titular">Nombre del Medicamento: <i class="fa fa-asterisk"></i></div>
-							<div class="col col-xs-6 elemento">
-								<input type="text" data-type="input-textbox" name="nomMed" value="" placeholder="Medicamento-naturista">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col col-xs-3 titular">Logotipo: <i class="fa fa-asterisk"></i></div>
-							<div class="col col-xs-6 elemento">
-								<input type="file" name="imaMed" accept="image/x-png, image/gif, image/jpeg" required>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col col-xs-3 titular">Fecha de ingreso: <i class="fa fa-asterisk"></i></div>
-							<div class="col col-xs-6 elemento">
-								<input type="Date" name="fecMed" required>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col col-xs-3 titular">Descripcion: <i class="fa fa-asterisk"></i></div>
-							<div class="col col-xs-6 elemento">
-								<textarea title="Proporcione una descripcion detallada del Medicamento"></textarea>
-							</div>
-						</div>
+            <div class="row">
+                    <div class="col col-xs-3 titular">Codigo del Medicamento: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                            <input type="text" name="codigo_medicamento">
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col col-xs-3 titular">Nombre del Medicamento: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                            <input type="text" data-type="input-textbox" name="nombre"/>
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col col-xs-3 titular">Laboratorio de procedencia: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                        <input type="text" data-type="input-textbox" name="laboratorio"/>
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col col-xs-3 titular">Recomendaciones: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                            <textarea name="recomendaciones"></textarea>
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col col-xs-3 titular">Imagen Medicamento: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                            <input type="file" name="" accept="image/x-png, image/gif, image/jpeg" required>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col col-xs-3 titular">Fecha de vencimiento: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                            <input type="date" name="fecha_caducidad" required>
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col col-xs-3 titular">Composicion: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                            <textarea title="Proporcione una descripcion detallada del Medicamento"></textarea>
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col col-xs-3 titular">Descripcion: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                            <textarea name="descripcion"></textarea>
+                    </div>
+            </div>
 
 
-						<div class="row">
-							<div class="col col-xs-12 envio">
-								<input type="submit" name="subMed">
+            <div class="row">
+                    <div class="col col-xs-3 titular">Contraindicaciones: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                            <textarea name="contraindicaciones"></textarea>
+                    </div>
+            </div>
 
-								<button onclick="">Resetear Formulario</button>
-							</div>	
-						</div>
-				
-					</div>
-				</form>
+            <div class="row">
+                    <div class="col col-xs-3 titular">Contenido Neto: <i class="fa fa-asterisk"></i></div>
+                    <div class="col col-xs-6 elemento">
+                            <textarea name="contenido_neto"></textarea>
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col col-xs-12 envio">
+                            <input type="submit" name="subMed">
+
+                            <button onclick="">Resetear Formulario</button>
+                    </div>	
+            </div>
+
+    </div>
+</form>

@@ -18,13 +18,13 @@
 
     <title>Administrador</title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap CSS -->
     <link href="recursos/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- FORMULARIOS CSS -->
     <link rel="stylesheet" href="recursos/css/estilo-formularios.css">
 
-    <!-- Custom CSS -->
+    <!-- CSS -->
     <link href="recursos/css/estilo.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
@@ -33,6 +33,7 @@
     <!-- Custom Fonts -->
     <link href="recursos/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
+    <!-- FAVICON -->
     <link rel="shortcut icon" href="recursos/images/favicon32x32.png" type="image/png">
     <link rel="icon" href="recursos/images/favicon32x32.png" type="image/png">
 
@@ -88,7 +89,7 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> INICIO></a>
+                        <a href="index.jsp"><i class="fa fa-fw fa-dashboard"></i> INICIO></a>
                     </li>
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#menu2"><i class="fa fa-fw fa-plus"></i> AGREGAR</a>

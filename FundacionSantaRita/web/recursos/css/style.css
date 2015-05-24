@@ -74,7 +74,7 @@ header{padding-top:20px;height:148px}
 #menu li {float:left;padding-left:25px}
 #menu li a{display:block;font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;line-height:1.2em;color:#497e04;text-transform:uppercase;text-decoration:none;text-align:center;letter-spacing:-1px;height:79px;font-style:normal;font-weight:700}
 #menu li a span{font-size:13px;line-height:1.2em;color:#777;display:block;letter-spacing:-1px;margin-top:-3px;font-weight:bold}
-#menu li a:hover, #menu .active a{color:#497e04}
+#menu li a:hover, #menu .active a{color:#6B9g26}
 #menu li a:hover span, #menu .active a span{color:#fff}
 #menu #nav1 a{background:url(../images/menu_icon1.gif) bottom center no-repeat}
 #menu #nav1 a:hover, #menu #nav1.active a{background:url(../images/menu_icon1_active.gif) bottom center no-repeat}
@@ -88,6 +88,8 @@ header{padding-top:20px;height:148px}
 #menu #nav5 a:hover, #menu #nav5.active a{background:url(../images/menu_icon5_active.gif) bottom center no-repeat}
 #menu #nav6 a{background:url(../images/menu_icon6.gif) bottom center no-repeat}
 #menu #nav6 a:hover, #menu #nav6.active a{background:url(../images/menu_icon6_active.gif) bottom center no-repeat}
+#menu #nav7 a{background:url(../images/menu_icon7.gif) bottom center no-repeat}
+#menu #nav7 a:hover, #menu #nav7.active a{background:url(../images/menu_icon7_active.gif) bottom center no-repeat}
 
 .slider{top:148px;position:absolute;z-index:1}
 .slider .items{display:none}
