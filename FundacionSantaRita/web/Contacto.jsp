@@ -61,7 +61,7 @@
 				<div class="wrapper">
 					<section class="col1">
 						<h2 class="under">Formulario de Contacto</h2>
-						<form id="ContactForm" method="post">
+						<form id="FormContacto" action="control" method="post">
 						<div>
 							<div  class="wrapper">
 								<span>Nombre:</span>
@@ -79,8 +79,8 @@
 								<span>Mensaje:</span>
 								<textarea name="textarea" cols="1" rows="1"></textarea>
 							</div>
-							<a href="#" onClick="document.getElementById('ContactForm').submit()">Enviar</a>
-							<a href="#" onClick="document.getElementById('ContactForm').reset()">Borrar</a>
+							<a href="#" onClick="document.getElementById('formContacto').submit()">Enviar</a>
+							<a href="#" onClick="document.getElementById('formContacto').reset()">Borrar</a>
 						</div>
 					</form>
 					</section>

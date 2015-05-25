@@ -1,4 +1,4 @@
-/*layout*/
+/*Maquetacion*/
 
 .col1, .col2, .col3, .col4, .cols {float:left;}
 
@@ -142,53 +142,41 @@ footer {padding:34px 0 38px 0;font-style:normal;color:#696969;text-align:center}
 footer a{color:#fff}
 footer a:hover{}
 /* ============================= forms ============================= */
-#ContactForm {margin-top:-4px}
-#ContactForm span{width:109px;float:left;line-height:26px}
-#ContactForm .wrapper{min-height:30px}
-#ContactForm .textarea_box{min-height:275px;width:100%;overflow:hidden;padding-bottom:6px}
-#ContactForm {}
-#ContactForm {}
-#ContactForm a{margin-left:10px;float:right;width:62px;font-style:normal;font-weight:bold;color:#fff;height:32px;line-height:32px;text-decoration:none;background:#60b000;text-align:center}
-#ContactForm a:hover{background:#080808}
-#ContactForm .input {width:269px;height:18px;border:1px solid #e5e5e5;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
-#ContactForm textarea {overflow:auto;width:549px;height:258px;border:1px solid #e5e5e5;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
+#FormContacto {margin-top:-4px}
+#FormContacto span{width:109px;float:left;line-height:26px}
+#FormContacto .wrapper{min-height:30px}
+#FormContacto .textarea_box{min-height:275px;width:100%;overflow:hidden;padding-bottom:6px}
+#FormContacto {}
+#FormContacto {}
+#FormContacto a{margin-left:10px;float:right;width:62px;font-style:normal;font-weight:bold;color:#fff;height:32px;line-height:32px;text-decoration:none;background:#60b000;text-align:center}
+#FormContacto a:hover{background:#080808}
+#FormContacto .input {width:269px;height:18px;border:1px solid #000;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
+#FormContacto textarea {overflow:auto;width:549px;height:258px;border:1px solid #000;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
 #newsletter{}
 #newsletter .input{background:#fff;padding:6px 18px;width:184px;height:18px;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:inherit;color:#b4b4b4;margin:0}
 #newsletter .input:focus{color:#696969}
 #newsletter .wrapper{min-height:40px}
 #newsletter a{float:right;width:90px;height:32px;background:#fff;line-height:32px;color:#000;font-weight:bold;text-align:center;font-style:normal;text-decoration:none}
 #newsletter a:hover{background:#60b000;color:#fff}
-
+#FormCita {margin-top:-4px}
+#FormCita span{width:109px;float:left;line-height:26px}
+#FormCita .wrapper{min-height:30px}
+#FormCita .textarea_box{min-height:275px;width:100%;overflow:hidden;padding-bottom:6px}
+#FormCita {}
+#FormCita {}
+#FormCita a{margin-left:10px;float:right;width:62px;font-style:normal;font-weight:bold;color:#fff;height:32px;line-height:32px;text-decoration:none;background:#60b000;text-align:center}
+#FormCita a:hover{background:#080808}
+#FormCita .input {width:269px;height:18px;border:1px solid #000;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
+#FormCita textarea {overflow:auto;width:549px;height:258px;border:1px solid #000;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
 /*LOGIN CSS*/
 /*///////////////////////////////////////////////////////*/
-.popup{
-    z-index: 4;
-    display: block;
-    width: 100%;
-    height: 10px;
-    margin:0;
-    padding:0;
-    position: relative;
+.popup{z-index: 4;display: block;width: 100%;height: 10px;margin:0;padding:0;position: relative;
 }
 
-.login{
-    z-index: 5;
-    width: 200px;
-    display:none;
-    position: relative;
-    top:15px;
-    left: 735px;
+.login{z-index: 5;width: 200px;display:none;position: relative;top:15px;left: 735px;
 }
 
-.arrow-up {
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 15px solid #C3C3C3;
-    position: absolute;
-    top:-12px;
-    right: 0;
+.arrow-up {width: 0;height: 0;border-left: 20px solid transparent;border-right: 20px solid transparent;border-bottom: 15px solid #C3C3C3;position: absolute;top:-12px;right: 0;
 }
 
 .login input[type="usuario"], .login input[type="password"] {
@@ -223,6 +211,43 @@ footer a:hover{}
     color: #fff;
 }
 
-.login input[type="submit"]:hover {
-    background: #6BCA78;
+.login input[type="submit"]:hover {background: #6BCA78;
+}
+
+
+/*PRUEBA DE HOVER MENU*/
+
+.toplevel {
+        display:block;
+        padding:0 10px;
+        line-height:2;
+        color:#fff;
+        text-decoration:none;
+        background:#f00;
+    }
+
+    /* Desplegable */
+.dropdown {
+    position:relative;
+    z-index:200;
+}
+.submenu {
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+    width:200px;
+    list-style-type:none;
+    padding-top:2em;
+    z-index:200;
+}
+.hover .submenu {
+    display:block;
+}
+.submenu a {
+    display:block;
+    padding:5px;
+    color:#fff;
+    text-decoration:none;
+    background:navy;
 }

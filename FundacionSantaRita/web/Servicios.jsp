@@ -60,7 +60,7 @@
 			<article id="content">
 				<div class="wrapper tabs">
                                     
-                                    <a href="#">RESERVAR UNA CITA!</a><br><br>
+                                    <a href="control?accion=cita">RESERVAR UNA CITA!</a><br><br>
                                     
                                     <div class='tab-content'>
                                     <%
@@ -72,17 +72,30 @@
                                                 TerapiaDto terapia=(TerapiaDto)t.get(i-1);
                                     %>
                                                 
-                                                    <h5><span class='dropcap'><strong> <%=i%> </strong><span>---</span></span><%=terapia.getNombre() %></h5>
-                                                    <div class='wrapper pad_bot2'>
-                                                        <figure class='left marg_right1'><img src='recursos/images/servicios/terapia1.jpg' alt=''></figure>
-                                                        <p class='pad_bot1'><%=terapia.getDescripcion() %></p>
-                                                        <a href='#' class='link1'>Leer M&aacute;s</a>
-                                                    </div>
+                                                <h5><span class='dropcap'><strong> <%=i%> </strong><span>---</span></span><%=terapia.getNombre() %></h5>
+                                                <div class='wrapper pad_bot2'>
+                                                    <figure class='left marg_right1'><img src='recursos/images/servicios/terapia1.jpg' alt=''></figure>
+                                                    <p class='pad_bot1'><%=terapia.getDescripcion() %></p>
+                                                    <a href='#' class='link1'>Leer M&aacute;s</a>
+                                                </div>
                                                 
                                     <%      }
                                         }
                                     %>
-                                                                       
+                                       
+                                        <h5><span class='dropcap'><strong>1</strong><span>---</span></span>Terapia 1 ejemplo</h5>
+                                        <div class='wrapper pad_bot2'>
+                                            <figure class='left marg_right1'><img src='recursos/images/servicios/terapia1.jpg' alt=''></figure>
+                                            <p class='pad_bot1'>ejemplo de vista en caso de que no se este conectado a la base de datos </p>
+                                            <a href='#' class='link1'>Leer M&aacute;s</a>
+                                        </div>
+                                    
+                                        <h5><span class='dropcap'><strong>2</strong><span>---</span></span>Terapia 2 ejemplo</h5>
+                                        <div class='wrapper pad_bot2'>
+                                            <figure class='left marg_right1'><img src='recursos/images/servicios/terapia1.jpg' alt=''></figure>
+                                            <p class='pad_bot1'>ejemplo de vista en caso de que no se este conectado a la base de datos </p>
+                                            <a href='#' class='link1'>Leer M&aacute;s</a>
+                                        </div>
                                     </div>  
 				</div>
 

@@ -43,12 +43,20 @@ public class controlador extends HttpServlet {
         }
         
         if("servicios".equals(request.getParameter("accion"))){
-            TerapiaDao terapiadao=new TerapiaDao();
-            if (terapiadao.readAll()!= null) {
+            //TerapiaDao terapiadao=new TerapiaDao();
+            //if (terapiadao.readAll()!= null) {
                 //System.out.println(ldao.readAll().size());
-                request.setAttribute("terapias",terapiadao.readAll());
+                //request.setAttribute("terapias",terapiadao.readAll());
                 request.getRequestDispatcher("Servicios.jsp").forward(request, response);
-            }
+            //}
+        }
+        if("cita".equals(request.getParameter("accion"))){
+            //TerapiaDao terapiadao=new TerapiaDao();
+            //if (terapiadao.readAll()!= null) {
+                //System.out.println(ldao.readAll().size());
+                //request.setAttribute("terapias",terapiadao.readAll());
+                request.getRequestDispatcher("Cita.jsp").forward(request, response);
+            //}
         }
     }
 
