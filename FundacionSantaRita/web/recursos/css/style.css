@@ -152,19 +152,13 @@ footer a:hover{}
 #FormContacto a:hover{background:#080808}
 #FormContacto .input {width:269px;height:18px;border:1px solid #000;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
 #FormContacto textarea {overflow:auto;width:549px;height:258px;border:1px solid #000;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
-#newsletter{}
-#newsletter .input{background:#fff;padding:6px 18px;width:184px;height:18px;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:inherit;color:#b4b4b4;margin:0}
-#newsletter .input:focus{color:#696969}
-#newsletter .wrapper{min-height:40px}
-#newsletter a{float:right;width:90px;height:32px;background:#fff;line-height:32px;color:#000;font-weight:bold;text-align:center;font-style:normal;text-decoration:none}
-#newsletter a:hover{background:#60b000;color:#fff}
 #FormCita {margin-top:-4px}
 #FormCita span{width:109px;float:left;line-height:26px}
 #FormCita .wrapper{min-height:30px}
 #FormCita .textarea_box{min-height:275px;width:100%;overflow:hidden;padding-bottom:6px}
 #FormCita {}
 #FormCita {}
-#FormCita a{margin-left:10px;float:right;width:62px;font-style:normal;font-weight:bold;color:#fff;height:32px;line-height:32px;text-decoration:none;background:#60b000;text-align:center}
+#FormCita a{margin-left:10px;float:left;width:62px;font-style:normal;font-weight:bold;color:#fff;height:32px;line-height:32px;text-decoration:none;background:#60b000;text-align:center}
 #FormCita a:hover{background:#080808}
 #FormCita .input {width:269px;height:18px;border:1px solid #000;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
 #FormCita textarea {overflow:auto;width:549px;height:258px;border:1px solid #000;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
@@ -179,75 +173,14 @@ footer a:hover{}
 .arrow-up {width: 0;height: 0;border-left: 20px solid transparent;border-right: 20px solid transparent;border-bottom: 15px solid #C3C3C3;position: absolute;top:-12px;right: 0;
 }
 
-.login input[type="usuario"], .login input[type="password"] {
-    width: 100%;
-    display: inline-block;
-    font-size: 18px;
-    border-radius: 5px;
-    border: none;
-    -webkit-transition: 0.3s linear;
-    -moz-transition: 0.3s linear;
-    -o-transition: 0.3s linear;
-    transition: 0.3s linear;
-}
-
-.login fieldset{
-    padding: 5px 10px 10px 10px;
-    background-color: #C3C3C3;
-}
-
-.login input[type="usuario"]:focus, .login input[type="password"]:focus {
-    outline: none;
-    box-shadow: 0 0 1px 1px #43F569;
-}
-
-.login input[type="submit"] {
-    background: #68A717;
-    padding: 10px;
-    font-size: 16px;
-    display: block;
-    width: 100%;
-    border: none;
-    color: #fff;
-}
-
-.login input[type="submit"]:hover {background: #6BCA78;
-}
+.login input[type="usuario"], .login input[type="password"] {width: 100%;display: inline-block;font-size: 18px;border-radius: 5px;border: none;-webkit-transition: 0.3s linear;-moz-transition: 0.3s linear;-o-transition: 0.3s linear;transition: 0.3s linear;}
+.login fieldset{padding: 5px 10px 10px 10px;background-color: #C3C3C3;}
+.login input[type="usuario"]:focus, .login input[type="password"]:focus {outline: none;box-shadow: 0 0 1px 1px #43F569;}
+.login input[type="submit"] {background: #68A717;padding: 10px;font-size: 16px;display: block;width: 100%;border: none;color: #fff;}
+.login input[type="submit"]:hover {background: #6BCA78;}
 
 
-/*PRUEBA DE HOVER MENU*/
-
-.toplevel {
-        display:block;
-        padding:0 10px;
-        line-height:2;
-        color:#fff;
-        text-decoration:none;
-        background:#f00;
-    }
-
-    /* Desplegable */
-.dropdown {
-    position:relative;
-    z-index:200;
-}
-.submenu {
-    position:absolute;
-    top:0;
-    left:0;
-    display:none;
-    width:200px;
-    list-style-type:none;
-    padding-top:2em;
-    z-index:200;
-}
-.hover .submenu {
-    display:block;
-}
-.submenu a {
-    display:block;
-    padding:5px;
-    color:#fff;
-    text-decoration:none;
-    background:navy;
-}
+.toplevel {display:block;padding:0 10px;line-height:2;color:#fff;text-decoration:none;background:#f00;}
+.btn-cita{border-radius: 5px;color: #000;padding:10px;background-color: #6BCA78;text-decoration:none;font-weight: bold;}
+.btn-cita:hover{background-color: #43F569;color:#fff;}
+.title{margin-bottom: 30px;}

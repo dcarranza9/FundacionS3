@@ -1,6 +1,5 @@
 <%-- 
     Document   : Servicios.jsp
-    Created on : May 14, 2015, 2:31:38 PM
     Author     : MAICK
 --%>
 
@@ -31,7 +30,7 @@
 			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
 		</div>
 	<![endif]-->
-
+<%@include file="recursos/html/favicon.html" %>
 </head>
 
 <body id="page2">
@@ -59,8 +58,9 @@
 <!-- content -->
 			<article id="content">
 				<div class="wrapper tabs">
+                                     <h2 class="title">SERVICIOS A SU DISPOSICION:</h2>
                                     
-                                    <a href="control?accion=cita">RESERVAR UNA CITA!</a><br><br>
+                                    <a class="btn-cita" href="control?accion=cita">RESERVAR UNA CITA!</a><br><br><br>
                                     
                                     <div class='tab-content'>
                                     <%
@@ -91,6 +91,13 @@
                                         </div>
                                     
                                         <h5><span class='dropcap'><strong>2</strong><span>---</span></span>Terapia 2 ejemplo</h5>
+                                        <div class='wrapper pad_bot2'>
+                                            <figure class='left marg_right1'><img src='recursos/images/servicios/terapia1.jpg' alt=''></figure>
+                                            <p class='pad_bot1'>ejemplo de vista en caso de que no se este conectado a la base de datos </p>
+                                            <a href='#' class='link1'>Leer M&aacute;s</a>
+                                        </div>
+                                        
+                                        <h5><span class='dropcap'><strong>3</strong><span>---</span></span>Terapia 3 ejemplo</h5>
                                         <div class='wrapper pad_bot2'>
                                             <figure class='left marg_right1'><img src='recursos/images/servicios/terapia1.jpg' alt=''></figure>
                                             <p class='pad_bot1'>ejemplo de vista en caso de que no se este conectado a la base de datos </p>

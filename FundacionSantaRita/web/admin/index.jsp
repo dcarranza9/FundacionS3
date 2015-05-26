@@ -1,7 +1,6 @@
 <%-- 
     Document   : index
-    Created on : May 16, 2015, 1:01:38 PM
-    Author     : MAICK
+    Author     : Jhon Fredy
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -20,13 +19,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="recursos/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- FORMULARIOS CSS -->
-    <link rel="stylesheet" href="recursos/css/estilo-formularios.css">
-
     <!-- CSS -->
     <link href="recursos/css/estilo.css" rel="stylesheet">
 
+    <!-- FORMULARIOS CSS -->
+    <link rel="stylesheet" href="recursos/css/estilo-formularios.css">
+    
     <!-- Morris Charts CSS -->
     <link href="recursos/css/plugins/morris.css" rel="stylesheet">
 
@@ -34,8 +32,8 @@
     <link href="recursos/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="recursos/images/favicon32x32.png" type="image/png">
-    <link rel="icon" href="recursos/images/favicon32x32.png" type="image/png">
+    <link rel="shortcut icon" href="recursos/imagenes/favicon32x32.png" type="image/png">
+    <link rel="icon" href="recursos/imagenes/favicon32x32.png" type="image/png">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,6 +41,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
 
 </head>
 
@@ -115,42 +114,29 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#menu3"><i class="fa fa-fw fa-eye"></i> GESTIONAR</a>
                         <ul id="menu3" class="collapse">
                             <li>
-                                <a name=""  href="#">Medicamentos<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
+                                <a name="linkGesMed"  onclick="traerhtmlb1()">Medicamentos<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
                             </li>
                             <li>
-                                <a name=""  href="#">Terapias<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
+                                <a name="linkGesTer"  onclick="traerhtmlb2()">Ter&aacute;pias<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
                             </li>
                             <li>
-                                <a name=""  href="#">Eventos<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
+                                <a name="linkGesEve"  onclick="traerhtmlb3()">Eventos<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
                             </li>
                             <li>
-                                <a name=""  href="#">Testimonios<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
+                                <a name="linkGesPas"  onclick="traerhtmlb4()">Pacientes<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
                             </li>
                             <li>
-                                <a name=""  href="#">Donaciones<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
+                                <a name="linkGesTes"  onclick="traerhtmlb5()">Testimonios<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
+                            </li>
+                            <li>
+                                <a name="linkGesDon"  onclick="traerhtmlb6()">Donaciones<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
+                            </li>
+                            <li>
+                                <a name="linkGesUsu"  onclick="traerhtmlb7()">Usuarios<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#menu4"><i class="fa fa-fw fa-list"></i> LISTAR</a>
-                        <ul id="menu4" class="collapse">
-                            <li>
-                                <a name=""  href="#">Medicamentos<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
-                            </li>
-                            <li>
-                                <a name=""  href="#">Terapias<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
-                            </li>
-                            <li>
-                                <a name=""  href="#">Eventos<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
-                            </li>
-                            <li>
-                                <a name=""  href="#">Testimonios<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
-                            </li>
-                            <li>
-                                <a name=""  href="#">Donaciones<i class="span1 pull-right fa fa-fw fa-arrow-right"></i></a>
-                            </li>
-                        </ul>
-                    </li>
+                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

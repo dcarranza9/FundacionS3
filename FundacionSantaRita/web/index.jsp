@@ -1,6 +1,5 @@
 <%-- 
     Document   : index
-    Created on : May 10, 2015, 8:59:16 PM
     Author     : MAICK
 --%>
 
@@ -39,8 +38,7 @@
 		</div>
 	<![endif]-->
         
-<link rel="shortcut icon" href="recursos/images/favicon32x32.png" type="image/png">
-<link rel="icon" href="recursos/images/favicon32x32.png" type="image/png">
+<%@include file="recursos/html/favicon.html" %>
 
 </head>
 <body id="page1">
@@ -83,7 +81,7 @@
 
 				<div class="wrapper">
 					<section class="col1">
-						<h2 class="under">Bienvenido, Querido visitante!</h2>
+						<h2 class="under">Bienvenido Querido visitante!</h2>
 						<div class="wrapper">
 							<figure class="left marg_right1"><img src="recursos/images/page1_img1.jpg" alt=""></figure>
 							<p class="pad_bot1">Somos una fundacion con una ideologia naturista que buscamos ayudar a las personas gracias a la ayuda de otras personas, hemos desarrollado una linea de productos y servicios para poder tratar todo tipo de males que aquejan la mente cuerpo y alma de quienes acuden a nosotros</p>

@@ -1,6 +1,5 @@
 <%-- 
     Document   : contacto
-    Created on : May 14, 2015, 1:11:00 PM
     Author     : MAICK
 --%>
 
@@ -9,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>Contacts</title>
+<title>Contacto</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="recursos/css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="recursos/css/style.css" type="text/css" media="all">
@@ -31,7 +30,12 @@
 			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
 		</div>
 <![endif]-->
+
+<%@include file="recursos/html/favicon.html" %>
+
 </head>
+
+
 <body id="page5">
 	<div class="body1">
 	<div class="body2">

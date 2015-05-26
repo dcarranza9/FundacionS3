@@ -41,37 +41,3 @@ function mostrarLogin()
     }
     
 }
-
-$(function()
-{
-    var $dropdowns = $('li.dropdown');
-    $dropdowns.on('mouseover', function(){
-        
-            var $this = $(this);
-
-            if ($this.prop('hoverTimeout'))
-            {
-                $this.prop('hoverTimeout', clearTimeout($this.prop('hoverTimeout')));
-            }
-
-            $this.prop('hoverIntent', setTimeout(function()
-            {
-                $this.addClass('hover');
-            }, 250));
-        })
-        .on('mouseleave', function()
-        {
-            var $this = $(this);
-
-            if ($this.prop('hoverIntent'))
-            {
-                $this.prop('hoverIntent', clearTimeout($this.prop('hoverIntent')));
-            }
-
-            $this.prop('hoverTimeout', setTimeout(function()
-            {
-                $this.removeClass('hover');
-            }, 250));
-        });
-    
-});

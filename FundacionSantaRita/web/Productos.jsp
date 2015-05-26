@@ -1,6 +1,5 @@
 <%-- 
     Document   : Productos
-    Created on : May 14, 2015, 2:46:45 PM
     Author     : MAICK
 --%>
 
@@ -32,7 +31,8 @@
 			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
 		</div>
 	<![endif]-->
-
+<%@include file="recursos/html/favicon.html" %>
+        
 </head>
 
 <body id="page4">
@@ -59,14 +59,32 @@
 <!-- content -->
 			<article id="content">
 				<div class="wrapper">
-					<section >
-						<div class="wrapper">
-							<h3><span class="dropcap">1</span>Product name blabblsbklsedf</h3>
-							<figure><img src="recursos/images/.jpg" alt=""></figure>
+					<section>
+                                                <h2 class="title">LISTAD DE PRODUCTOS</h2>
+						                                                                                             
+                                                <div class="wrapper">
+							<h3><span class="dropcap">1</span>PRODUCTO NATURAL</h3>
+							<figure class='left marg_right1'><img src="recursos/images/productos/medicamento.png" alt=""></figure>
 							<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-							<a href="#" class="link1">Read More</a>
-						</div>
-					</section>
+							<a href="#" class="link1">Leer M&aacute;</a>
+						</div><br/><br/>
+                                                <div class="wrapper">
+							<h3><span class="dropcap">2</span>PRODUCTO NATURAL</h3>
+							<figure class='left marg_right1'><img src="recursos/images/productos/medicamento.png" alt=""></figure>
+							<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+							<a href="#" class="link1">Leer M&aacute;</a>
+						</div><br/><br/>
+                                                <div class="wrapper">
+							<h3><span class="dropcap">3</span>PRODUCTO NATURAL</h3>
+							<figure class='left marg_right1'><img src="recursos/images/productos/medicamento.png" alt=""></figure>
+							<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+							<a href="#" class="link1">Leer M&aacute;</a>
+						</div><br/><br/>
+                                                
+                                                
+                                                
+                                                
+                                        </section>
 					
 				</div>
 
