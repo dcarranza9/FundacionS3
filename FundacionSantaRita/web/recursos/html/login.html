@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
+
 <div class="popup">
     <div class="login">
         <div class="arrow-up"></div>
-        <form action="control" method="post">
+        <form action="admin/index.jsp" method="post">
             <fieldset>
                 <label>Usuario: </label>
                 <input id="usuario" type="text" value="maick"/>
                 <label>Contrase&ncaron;a: </label>
-                <input id="password" type="password" value="diaz"/>
+                <input id="password" type="password" value="1101"/>
+                
+                <img id="captcha" src="<c:url value='simpleCaptcha.jpg'/>" width="150">
+                <input type="text" name="answer" /><br>
+                
             </fieldset>
-
-            <input name="btsubmit" id="btsubmit" type="submit" value="Login" />
+            
+            
+            <input name="btsubmit" id="btsubmit" type="submit"  value="Login" />
         </form>
     </div>
 </div>

@@ -35,7 +35,7 @@ public class controlador extends HttpServlet {
             String password=request.getParameter("password");
             
             if("maick".equals(usuario) && "1101".equals(password) ){
-                request.getRequestDispatcher("admin/index.jsp");
+                request.getRequestDispatcher("/admin/index.jsp");
             }
             else{
                 request.getRequestDispatcher("index.jsp");

@@ -17,6 +17,7 @@ $(document).ready(function(){
             $("#password").css("box-shadow","0 0 1px 1px red");
             return false;
         }
+        window.location.replace("admin/index.jsp");
     });
 
     $(document).mouseup(function (e)
