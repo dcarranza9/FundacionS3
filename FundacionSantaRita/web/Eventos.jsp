@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>Products</title>
+<title>Eventos</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="recursos/css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="recursos/css/layout.css" type="text/css" media="all">
@@ -63,20 +63,20 @@
 						<div class="wrapper">
 							<h3><span class="dropcap">1</span>Evento numero 1</h3>
 							<!--<figure><img src="recursos/images/.jpg" alt=""></figure>-->
-							<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-							<a href="#" class="link1">Read More</a>
+							<p class="pad_bot1">Descripci&oacute;n del evento que se llevara a cabo por la fundacion en un determiando dia.</p>
+							<a href="#" class="link1">Leer Más</a>
 						</div><br><br>
                                                 <div class="wrapper">
 							<h3><span class="dropcap">2</span>Evento numero 2</h3>
 							<!--<figure><img src="recursos/images/.jpg" alt=""></figure>-->
-							<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-							<a href="#" class="link1">Read More</a>
+							<p class="pad_bot1">Descripci&oacute;n del evento que se llevara a cabo por la fundacion en un determiando dia.</p>
+							<a href="#" class="link1">Leer Más</a>
 						</div><br><br>
                                                 <div class="wrapper">
 							<h3><span class="dropcap">3</span>Evento numero 3</h3>
 							<!--<figure><img src="recursos/images/.jpg" alt=""></figure>-->
-							<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-							<a href="#" class="link1">Read More</a>
+							<p class="pad_bot1">Descripci&oacute;n del evento que se llevara a cabo por la fundacion en un determiando dia.</p>
+							<a href="#" class="link1">Leer Más</a>
 						</div><br><br>
 					</section>
 					

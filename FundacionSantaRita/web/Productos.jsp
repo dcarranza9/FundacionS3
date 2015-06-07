@@ -65,20 +65,20 @@
                                                 <div class="wrapper">
 							<h3><span class="dropcap">1</span>PRODUCTO NATURAL</h3>
 							<figure class='left marg_right1'><img src="recursos/images/productos/medicamento.png" alt=""></figure>
-							<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-							<a href="#" class="link1">Leer M&aacute;</a>
+							<p class="pad_bot1">Un producto natural es un compuesto químico producido por un organismo vivo en la naturaleza. En un sentido amplio, los productos naturales incluyen cualquier sustancia producida por la vida.</p>
+							<a href="#" class="link1">Leer M&aacute;s</a>
 						</div><br/><br/>
                                                 <div class="wrapper">
 							<h3><span class="dropcap">2</span>PRODUCTO NATURAL</h3>
 							<figure class='left marg_right1'><img src="recursos/images/productos/medicamento.png" alt=""></figure>
-							<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-							<a href="#" class="link1">Leer M&aacute;</a>
+							<p class="pad_bot1">Un producto natural es un compuesto químico producido por un organismo vivo en la naturaleza. En un sentido amplio, los productos naturales incluyen cualquier sustancia producida por la vida.</p>
+							<a href="#" class="link1">Leer M&aacute;s</a>
 						</div><br/><br/>
                                                 <div class="wrapper">
 							<h3><span class="dropcap">3</span>PRODUCTO NATURAL</h3>
 							<figure class='left marg_right1'><img src="recursos/images/productos/medicamento.png" alt=""></figure>
-							<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-							<a href="#" class="link1">Leer M&aacute;</a>
+							<p class="pad_bot1">Un producto natural es un compuesto químico producido por un organismo vivo en la naturaleza. En un sentido amplio, los productos naturales incluyen cualquier sustancia producida por la vida.</p>
+							<a href="#" class="link1">Leer M&aacute;s</a>
 						</div><br/><br/>
                                                 
                                                 

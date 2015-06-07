@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>Servicios</title>
+<title>Cita</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="recursos/css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="recursos/css/style.css" type="text/css" media="all">
